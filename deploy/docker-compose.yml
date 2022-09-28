@@ -50,3 +50,10 @@ services:
       EOF'      
     ports:
       - '9090:9090'
+  client:
+    build:
+      context: ..
+      dockerfile: deploy/DockerfileClient
+    volumes:
+      - ../client:/app
+      - /app/node_modules
