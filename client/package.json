@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@heroiclabs/nakama-js": "^2.4.1"
+    "@heroiclabs/nakama-js": "^2.4.1",
+    "node-fetch": "^3.2.10",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {},
   "scripts": {
